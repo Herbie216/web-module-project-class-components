@@ -9,7 +9,7 @@ const root = createRoot(domNode)
 
 root.render(
   <>
-    <h1>Todo App</h1>
+    <h1 style={{ fontWeight: 'bold' }} >Todo App</h1>
     <App />
   </>
 )
